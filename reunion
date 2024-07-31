@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+
+        String firstName = scanner.nextLine();
+        
+        
+        String secondName = scanner.nextLine();
+        
+        // Concatenate the two names
+        String concatenatedString = firstName + secondName;
+        
+        // Print the harmonious message
+        System.out.println("Friendship Rekindled! The concatenated string is " + concatenatedString + ".");
+    }
+}
